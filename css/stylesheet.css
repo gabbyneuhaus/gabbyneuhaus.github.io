@@ -33,16 +33,19 @@
     padding-bottom: 2rem;
 
 }
-hr{
-    max-width: 50%;
-    margin-left: 0;
-    border-top: 2px solid black;
-}
+
+.aboutus {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+  }
+
 p.content{
     font-size: 25px;
 }
 p{
-    font-family: 'Goudy Bookletter 1911', serif;
+    font-family: 'Bitter', sans-serif;
 }
 .container2{
     display:flex;
@@ -57,28 +60,7 @@ p{
     padding-bottom: 5rem;
 }
 
-div.item1 {
-    height: 210px;
-    margin-right: 300px;
-margin-top:175px;
-float:left;  
-}
 
-div.item2 {
-    max-width: 100%;
-    height: 210px;
-    margin-right: 300px;
-margin-top:175px;
-float:left;     
-}
-
-div.item3 {
-    max-width: 100%;
-    height: 210px;
-    margin-left: 25px;
-margin-top:175px;
-float:right;  
-}
 #content{
     padding-top: 5rem;
     letter-spacing: 1rem;
@@ -94,17 +76,175 @@ float:right;
 }
 
 h1{
-    font-family: 'Bitter';
+    font-family: 'Bitter', sans-serif;
+  font-size: 36px;
+  text-align: center;
+  color: #7E0000;
 }
 h2{
-    font-family: 'Bitter';
+    font-family: 'Bitter', sans-serif;
 }
 div{
-    font-family: 'Bitter';
+    font-family: 'Bitter', sans-serif;
 }
 h5{
-    font-family: 'Bitter';
+    font-family: 'Bitter', sans-serif;
 }
 .background2{
     background-color: #DFD9AB;
 }
+
+
+
+body, form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Bitter', sans-serif;
+    background-color: #191312;
+    color: #DFD9AB;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #7E0000;
+  }
+  
+  form {
+    margin: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #DFD9AB;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #883E24;
+    background-color: #491000;
+    color: #DFD9AB;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #883E24;
+    color: #DFD9AB;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #7E0000;
+  }
+  
+  #errorMessages {
+    margin-bottom: 15px;
+  }
+  
+  #errorMessages {
+    color: #DFD9AB;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  @media (max-width: 767px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .containerbottom {
+      padding: 5px;
+    }
+  
+    #logotop {
+      width: 150px;
+      margin: 10px;
+    }
+  
+    .restaurant {
+      width: 300px;
+      height: 300px;
+    }
+  
+    .featured img {
+      width: 250px;
+      height: 250px;
+    }
+  
+    .footer {
+      font-size: 14px;
+    }
+  }
+  
+  /* For screens smaller than 576px (mobile devices) */
+  @media (max-width: 575px) {
+    #logotop {
+      width: 100px;
+      margin: 5px;
+    }
+  
+    .container {
+      padding: 5px;
+    }
+  
+    .containerbottom {
+      padding: 2px;
+    }
+  
+    .restaurant {
+      width: 200px;
+      height: 200px;
+    }
+  
+    .featured img {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .footer {
+      font-size: 12px;
+    }
+  }
+
+  body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .gallery {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .image {
+    flex: 1;
+    margin-right: 10px;
+    overflow: hidden;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
