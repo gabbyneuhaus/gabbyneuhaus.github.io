@@ -13,8 +13,11 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 </head>
 <body>
+
+  <div class="wrapper">
+    <div class="content">
     
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
           <h1 style="text-align:center; color:white;" id="hidden">Java Been</h1>
           <a class="navbar-brand" href="index.html">Java Been</a>
@@ -39,18 +42,29 @@
           </div>
         </div>
       </nav>
-  <h1>Contact Us</h1>
-  <form id="contactForm" onsubmit="validateForm(event)">
-    <label for="email">Email:</label>
-    <input type="text" id="email" name="email" required>
-    <br>
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="4" cols="50" required></textarea>
-    <br>
-    <input type="submit" value="Submit">
-  </form>
 
-  <p id="errorMessages" style="color: red;"></p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>Contact Us</h1>
+        <form id="contactForm" onsubmit="validateForm(event)">
+          <label class="label" for="email">Email:</label>
+          <input type="text" id="email" name="email" required>
+          <br>
+          <label class="label" for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+          <br>
+          <input type="submit" value="Submit">
+        </form>
+
+        <p id="errorMessages" style="color: red;"></p>
+      </div>
+      <div class="col-md-6 contact">
+        <p>We'd love to hear from you! At Java Been Coffee, we're passionate about delivering the finest coffee experience to our cherished customers. If you have any questions, feedback, or just want to say hello, don't hesitate to get in touch. Our team is here to assist you with anything you need, whether it's about our wide range of premium coffee blends, our cozy café locations, or upcoming events. Feel free to drop us a message using the contact form above, and we'll get back to you as soon as possible. Alternatively, you can reach us directly at the phone number provided below. Looking forward to serving you your favorite cup of Java Been goodness!</p>
+      </div>
+    </div>
+  </div>
+
   <div class="containerbottom">
     <div class="row">
       <div class="col footer">
@@ -61,7 +75,8 @@
       </div>
     </div>
   </div>
-
+</div>
+</div> 
 
 
   

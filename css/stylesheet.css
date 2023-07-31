@@ -96,69 +96,93 @@ h5{
 
 
 
-body, form {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: 'Bitter', sans-serif;
-    background-color: #191312;
-    color: #DFD9AB;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-  }
-  
-  h1 {
-    color: #7E0000;
-  }
-  
-  form {
-    margin: 20px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-    color: #DFD9AB;
-  }
-  
-  input[type="text"],
-  textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #883E24;
-    background-color: #491000;
-    color: #DFD9AB;
-  }
-  
-  textarea {
-    resize: vertical;
-  }
-  
-  input[type="submit"] {
-    padding: 10px 20px;
-    background-color: #883E24;
-    color: #DFD9AB;
-    border: none;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #7E0000;
-  }
-  
-  #errorMessages {
-    margin-bottom: 15px;
-  }
-  
-  #errorMessages {
-    color: #DFD9AB;
-    font-size: 14px;
-    font-weight: bold;
-  }
+body {
+  background-color: #DFD9AB;
+  color: #DFD9AB;
+  font-family: 'Bitter', sans-serif;
+}
+
+.label{
+  color: #7E0000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #883E24;
+}
+
+a {
+  color: #DFD9AB;
+}
+
+nav.navbar {
+  background-color: #7E0000;
+}
+
+#contactForm {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  background-color: #491000;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #DFD9AB;
+  border-radius: 5px;
+  background-color: #DFD9AB;
+  color: #DFD9AB;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #7E0000;
+  color: #DFD9AB;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #883E24;
+}
+
+#errorMessages {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.containerbottom {
+  background-color: #491000;
+  padding: 10px;
+}
+
+.col.footer {
+  color: #DFD9AB;
+}
+
+.contact {
+  padding-top: 80px;
+}
+
+.wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.content {
+  flex: 1;
+}
+
+
 
   @media (max-width: 767px) {
     .container {
